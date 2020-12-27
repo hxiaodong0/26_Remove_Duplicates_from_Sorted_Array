@@ -27,7 +27,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-//        List<Integer> nums = new ArrayList<Integer>(Arrays.asList(1,1,2));Zxz
+//        List<Integer> nums = new ArrayList<Integer>(Arrays.asList(1,1,2));Zxz11
         int[] nums = new int[3];
         nums[0] = 1;
         nums[1] = 1;
