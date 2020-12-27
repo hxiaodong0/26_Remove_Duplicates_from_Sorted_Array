@@ -6,20 +6,22 @@ import java.util.List;
 
 public class Main {
     public static int removeDuplicates(int[] nums) {
-
+        //return 0 for invalid inputs
         if (nums == null || nums.length == 0) {
             return 0;
         }
         int i = 0;
+        //Two pointers.
         for (int j = 1; j < nums.length; j++){
-
+            // only move the left pointer when the left point value and right pointer values does not match
             if (nums[i] != nums[j]){
                 i++;
             }
+
             nums[i] = nums[j];
         }
 
-        return i+1;
+        return i+1; // i+1 for the length
 
 
     }
